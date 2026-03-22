@@ -1,0 +1,45 @@
+{
+  "source_url": "https://twobuddingflorists.wixsite.com/website",
+  "image_count": 4,
+  "images": [
+    {
+      "filename": "img_00_d06d79f9.png",
+      "source_url": "https://static.wixstatic.com/media/68b1e1_3c09188899024eccbea0610d3248a19d~mv2_d_1612_1353_s_2.png/v1/fill/w_210,h_172,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/68b1e1_3c09188899024eccbea0610d3248a19d~mv2_d_1612_1353_s_2.png",
+      "role": "hero",
+      "context": {
+        "placement": "hero/banner"
+      },
+      "size_bytes": 49454
+    },
+    {
+      "filename": "img_01_fbcf937a.jpeg",
+      "source_url": "https://static.wixstatic.com/media/68b1e1_91380093f7834b739227801d5f1659a8~mv2.jpeg/v1/crop/x_0,y_130,w_3024,h_3773/fill/w_311,h_388,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Chester-County-PA-June-Spring-Fresh-Mark.jpeg",
+      "role": "general",
+      "context": {
+        "alt": "Chester-County-PA-June-Spring-Fresh-Mark",
+        "nearby_heading": "Find us at Market"
+      },
+      "size_bytes": 51948
+    },
+    {
+      "filename": "img_02_b01d589d.jpg",
+      "source_url": "https://static.wixstatic.com/media/68b1e1_0d953da2afbd41c297e6f0bd468480a3~mv2.jpg/v1/crop/x_0,y_48,w_1125,h_1404/fill/w_311,h_388,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_4769.jpg",
+      "role": "general",
+      "context": {
+        "alt": "IMG_4769.jpeg",
+        "nearby_heading": "Order Something Special"
+      },
+      "size_bytes": 67483
+    },
+    {
+      "filename": "img_03_100a847a.png",
+      "source_url": "https://static.wixstatic.com/media/68b1e1_6e75ffe5613d445498af570e6e0dbe4a~mv2.png/v1/crop/x_0,y_48,w_1125,h_1404/fill/w_311,h_388,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_7078.png",
+      "role": "general",
+      "context": {
+        "alt": "IMG_7078.jpg",
+        "nearby_heading": "Become a Member"
+      },
+      "size_bytes": 295190
+    }
+  ]
+}

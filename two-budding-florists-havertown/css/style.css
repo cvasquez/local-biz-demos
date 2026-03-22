@@ -79,6 +79,13 @@ a:hover { color: var(--sage); }
 
 .navbar__brand i { font-size: 1rem; color: var(--blush-dark); }
 
+.navbar__logo {
+  height: 36px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .navbar__links {
   display: flex;
   list-style: none;
@@ -227,6 +234,17 @@ a:hover { color: var(--sage); }
 .btn--outline:hover {
   background: var(--sage-dark);
   color: var(--white);
+}
+
+.btn--outline-light {
+  background: transparent;
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.btn--outline-light:hover {
+  background: var(--white);
+  color: var(--sage-dark);
 }
 
 .btn--earth {
@@ -590,6 +608,113 @@ a:hover { color: var(--sage); }
   text-align: center;
   font-size: .78rem;
   color: rgba(255,255,255,.4);
+}
+
+/* --- Hero with background image --- */
+.hero--with-image .hero__desc { color: rgba(255,255,255,.9); }
+.hero--with-image h1 { color: var(--white); }
+.hero--with-image h1 em { color: var(--sage-light); }
+
+/* --- Navbar & Footer Logo --- */
+.footer__logo {
+  height: 40px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  filter: brightness(0) invert(1) opacity(.6);
+}
+
+/* --- Gallery Grid (Home) --- */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  aspect-ratio: 4 / 5;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .4s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.06);
+}
+
+.gallery-item__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(transparent, rgba(58,58,58,.8));
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.gallery-item:hover .gallery-item__overlay {
+  opacity: 1;
+}
+
+.gallery-item__overlay p {
+  color: var(--white);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-style: italic;
+}
+
+/* --- About Visual with Photo --- */
+.about-visual--photo {
+  background: none;
+  padding: 0;
+}
+
+.about-visual--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+
+.about-visual--photo::after { display: none; }
+
+/* --- Service Card with Photo Header --- */
+.service-detail-card__top--photo {
+  position: relative;
+  padding: 0;
+  height: 200px;
+  overflow: hidden;
+}
+
+.service-detail-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-detail-card__top-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 16px 28px;
+  background: linear-gradient(transparent, rgba(92,126,95,.9));
+}
+
+.service-detail-card__top-overlay h3 {
+  color: var(--white);
+  font-size: 1.15rem;
 }
 
 /* --- Responsive --- */
