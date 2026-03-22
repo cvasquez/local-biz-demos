@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Cutting Edge Cuts | Havertown Barbershop</title>
+  <meta name="description" content="Visit Cutting Edge Cuts at 100 E Eagle Rd, Havertown PA 19083. Walk-ins welcome. Get directions and contact info.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <div class="pole-stripe"></div>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__brand">
+        <i class="fas fa-cut"></i> Cutting Edge Cuts
+      </a>
+      <button class="navbar__toggle" aria-label="Menu" onclick="document.querySelector('.navbar__links').classList.toggle('open')">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="hero" style="min-height: 280px;">
+    <div class="container">
+      <div class="hero__content">
+        <p class="hero__tagline">Get in Touch</p>
+        <h1><span>Contact</span> Us</h1>
+        <p class="hero__desc">Stop by the shop, give us a call, or drop us a message below.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="pole-stripe"></div>
+
+  <!-- Contact Content -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div>
+          <div class="contact-info-block">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Our Location</h3>
+              <p>100 E Eagle Rd<br>Havertown, PA 19083</p>
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3>Hours</h3>
+              <p>
+                Mon – Fri: 9:00 AM – 7:00 PM<br>
+                Saturday: 8:00 AM – 5:00 PM<br>
+                Sunday: Closed
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <i class="fas fa-info-circle"></i>
+            <div>
+              <h3>Walk-Ins Welcome</h3>
+              <p>No appointment needed — just stop by during business hours and we'll get you in the chair.</p>
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <i class="fas fa-parking"></i>
+            <div>
+              <h3>Parking</h3>
+              <p>Free parking available right in front of the shop on Eagle Road.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="haircut">Men's Haircut</option>
+                <option value="beard">Beard Trim</option>
+                <option value="shave">Hot Towel Shave</option>
+                <option value="kids">Kids' Haircut</option>
+                <option value="combo">Combo Package</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Any questions or special requests..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--gold" style="width: 100%;"><i class="fas fa-paper-plane"></i>&ensp;Send Message</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Map -->
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.5!2d-75.305!3d39.98!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s100+E+Eagle+Rd%2C+Havertown%2C+PA+19083!5e0!3m2!1sen!2sus!4v1"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Cutting Edge Cuts location on Google Maps">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>We're Easy to Find</h2>
+      <p>Right on Eagle Road in Havertown — look for the barbershop sign. See you soon!</p>
+      <a href="index.html" class="btn btn--dark"><i class="fas fa-home"></i>&ensp;Back to Home</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="pole-stripe"></div>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4><i class="fas fa-cut"></i> Cutting Edge Cuts</h4>
+          <p>Your neighborhood barbershop in Havertown, PA. We've been keeping Delaware County looking sharp with classic cuts and modern styles.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Visit Us</h4>
+          <p>100 E Eagle Rd<br>Havertown, PA 19083</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 Cutting Edge Cuts. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
