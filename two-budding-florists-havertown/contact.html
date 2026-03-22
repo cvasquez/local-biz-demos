@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Two Budding Florists | Havertown, PA</title>
+  <meta name="description" content="Get in touch with Two Budding Florists in Havertown, PA. Order flowers, ask about subscriptions, or find us at the Oakmont Farmers Market.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar__brand">
+        <i class="fas fa-seedling"></i> Two Budding Florists
+      </a>
+      <button class="navbar__toggle" aria-label="Menu" onclick="document.querySelector('.navbar__links').classList.toggle('open')">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero" style="min-height: 300px;">
+    <div class="container">
+      <div class="hero__content">
+        <span class="hero__badge"><i class="fas fa-envelope"></i> Say Hello</span>
+        <h1><em>Contact</em> Us</h1>
+        <p class="hero__desc">Have a question, want to place an order, or just want to talk flowers? We'd love to hear from you.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div>
+          <div class="contact-block">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Location</h3>
+              <p>Havertown, PA 19083<br>Delaware County</p>
+            </div>
+          </div>
+
+          <div class="contact-block">
+            <i class="fas fa-store"></i>
+            <div>
+              <h3>Oakmont Farmers Market</h3>
+              <p>Find us most weekends during the growing season with fresh-cut bunches and seasonal arrangements.</p>
+            </div>
+          </div>
+
+          <div class="contact-block">
+            <i class="fas fa-truck"></i>
+            <div>
+              <h3>Delivery Area</h3>
+              <p>
+                Havertown, Drexel Hill, Ardmore,<br>
+                Bryn Mawr, Narberth, Wynnewood<br>
+                <em>Contact us for other areas</em>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-block">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3>Order Lead Time</h3>
+              <p>We recommend ordering 3-5 days ahead for custom arrangements. Farmers market purchases are first-come, first-served.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+          <form action="#" method="post">
+            <div class="form-row">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+            </div>
+            <div class="form-row">
+              <label for="interest">I'm Interested In</label>
+              <select id="interest" name="interest">
+                <option value="">Select...</option>
+                <option value="bouquet">Custom Bouquet</option>
+                <option value="subscription">Flower Subscription</option>
+                <option value="event">Event Flowers</option>
+                <option value="gift">Gift Bundle</option>
+                <option value="delivery">Delivery Question</option>
+                <option value="other">Something Else</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your occasion, preferred colors, or any questions..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--sage" style="width: 100%;"><i class="fas fa-paper-plane"></i>&ensp;Send Message</button>
+          </form>
+        </div>
+
+      </div>
+
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12234.0!2d-75.3!3d39.98!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c3!2sHavertown%2C+PA+19083!5e0!3m2!1sen!2sus!4v1"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Two Budding Florists area — Havertown, PA">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Let's Make Something Beautiful</h2>
+      <p>Locally grown flowers, arranged with care, delivered to your door in Havertown.</p>
+      <a href="index.html" class="btn btn--earth"><i class="fas fa-home"></i>&ensp;Back to Home</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4><i class="fas fa-seedling"></i> Two Budding Florists</h4>
+          <p>Locally grown, seasonally inspired flower arrangements in Havertown, PA. Find us at the Oakmont Farmers Market or order for delivery throughout Delaware County.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Find Us</h4>
+          <p>Havertown, PA 19083<br>Oakmont Farmers Market</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 Two Budding Florists. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
